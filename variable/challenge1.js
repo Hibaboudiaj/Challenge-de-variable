@@ -5,13 +5,13 @@ let age = Number(prompt("veuillez saisir votre age : "));
 let sexe = prompt("veuillez saisir votre sex : ");
 let tele = Number(prompt("veuillez saisir votre tele : "));
 console.log(
-  "bonjour Mr/Ms " +
+  "bonjour Mr/Ms : " +
     nom +
     prenom +
-    ",tu as age " +
+    ",tu as age : " +
     age +
-    ";ton sexe est " +
+    ";ton sexe est : " +
     sexe +
-    ",ton numero de telephone" +
+    ",ton numero de telephone : " +
     tele
 );
