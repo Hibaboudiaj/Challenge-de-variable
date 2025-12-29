@@ -1,13 +1,12 @@
 const prompt = require("prompt-sync")();
+let Myarray = [];
+function RemplirTableau() {
+  for (let i = 1; i <= 5; i++) {
+    let N = Number(prompt("Entrer 5 nombre entier :"));
+    Myarray.push(N);
+  }
+  return Myarray;
+  // Hna kan-retourner array kamla bach console.log t-afficher liste dyal les nombres!
+}
+console.log(RemplirTableau());
 
-function remplirTableau(length){
-    let arr = []
-    for (let index = 0; index < length; index++) {
-        let nbr = Number(prompt('entrer des nombre: '))
-        arr.push(nbr)
-    }
-    // return arr;
-    console.log(arr)
-
-} 
-remplirTableau(5);
